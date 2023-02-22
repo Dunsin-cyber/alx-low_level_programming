@@ -61,6 +61,13 @@ int print_sign(int n);
 int _abs(int);
 
 
+/**
+ * print_last_digit - prints the last three digits
+ * @int: integer
+ * Return: int
+ */
+
+int print_last_digit(int);
 
 
 
