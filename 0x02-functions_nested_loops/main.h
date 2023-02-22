@@ -62,9 +62,9 @@ int _abs(int);
 
 
 /**
- * print_last_digit - prints the last digit of a number
- * @int: number
- * Return: int
+ * print_last_digit - print the last digit of a integer
+ * @int: integer
+ * Return: last digit of number
  */
 
 int print_last_digit(int);
