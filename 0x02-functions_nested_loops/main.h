@@ -34,5 +34,13 @@ int _islower(int c);
 
 
 
+/**
+ * _isalpha - checks if c is an alphabet
+ * @c: the character to check
+ * Return: int
+ */
+
+int _isalpha(int c);
+
 
 #endif
