@@ -18,8 +18,8 @@ int main(void)
 		a += b;
 		b += a;
 	}
-	if (countto % 2 == 1)
-		printf("%li, ", a);
+	if (countto == 50)
+		printf("%li", a);
 
 	printf("\n");
 	return (0);
