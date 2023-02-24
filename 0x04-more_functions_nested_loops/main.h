@@ -19,4 +19,13 @@ int _isupper(int c);
 int _isdigit(int c);
 
 
+/**
+ * mul - multiply two integers
+ * @a: an integer to be multiplied
+ * @b: an integer to be multiplied
+ * Return: integer
+ */
+
+int mul(int a, int b);
+
 #endif
