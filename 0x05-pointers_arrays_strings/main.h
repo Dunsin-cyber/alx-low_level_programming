@@ -84,5 +84,12 @@ void print_array(int *a, int n);
 
 char *_strcpy(char *dest, char *src);
 
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ * Return:Integer
+ */
+
+int _putchar(char c);
 
 #endif
