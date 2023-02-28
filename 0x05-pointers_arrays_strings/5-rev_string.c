@@ -22,7 +22,6 @@ void rev_string(char *s)
 
 	for (i = length; i >= 0; i--)
 	{
-		printf("%c", *s);
 		s--;
 	}
 }
