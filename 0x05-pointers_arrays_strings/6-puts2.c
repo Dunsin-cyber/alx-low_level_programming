@@ -1,13 +1,18 @@
 #include "main.h"
 
 /**
+ * _strlen - counts the length of the string with a new line
+ * @s: string
+ * Return:int
+ */
+
+int _strlen(char *s);
+
+/**
  * puts2 - prints every other character in a striong and a new line
  * @str: character
  * Return: void
  */
-
-
-int _strlen(char *s);
 
 
 void puts2(char *str)
@@ -20,7 +25,6 @@ void puts2(char *str)
 	{
 		_putchar(str[i]);
 	}
-	
 	_putchar('\n');
 }
 
